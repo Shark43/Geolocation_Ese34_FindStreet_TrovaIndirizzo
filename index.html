@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<title>GeoLocation</title>
+
+<style type="text/css">
+    h1{
+        text-align:center;
+	    font-size:25pt;
+	    font-weight:bold;
+    }
+    #imgBox{
+		width:800px;
+		height:600px;
+		margin:10px auto;		
+	}
+	input[type=text] { width:250px; }
+	
+	#info { padding:10px; text-align:left; }
+	#info p { padding:0; margin:0 0 5px 0; }
+</style>
+<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2oQYf3hnb1Tjb1gd8iPM8MsT_vuAn5sk&sensor=false&language=it"> </script>
+<script type="text/javascript"  src="index.js"> </script>
+</head>
+
+<!-- ----------------------------  BODY  ----------------------------- -->
+<body>
+    <h1> API v3 di google maps </h1>
+    <input type="text" id="txtIndirizzo" value="Via San Michele 68, Fossano">
+    <input type="button" id="btnTrova" value="Trova">
+    <div id="imgBox">  </div>	
+
+</body>
+</html>
